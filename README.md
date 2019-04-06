@@ -16,4 +16,12 @@ A test automation framework for Paradigm People Development's business website. 
 
 ### Test Automation and Tools
 
-### 
+### Testing measurements and metrices
+
+### Risks and mitigation
+
+### Defect reporting and tracking
+
+### Change and configuration management
+
+### Training plan
