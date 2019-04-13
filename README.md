@@ -15,6 +15,7 @@ A test automation framework for Paradigm People Development's business website. 
 ### Industry Standards to Follow
 
 ### Test Automation and Tools
+- Selenium WebDriver
 
 ### Testing measurements and metrices
 
