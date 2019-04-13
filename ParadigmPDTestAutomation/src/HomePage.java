@@ -1,10 +1,6 @@
+
 public class HomePage
 {
-    public static void GoToHomePage()
-    {
-
-    }
-
     public static void ClickICFLink()
     {
 

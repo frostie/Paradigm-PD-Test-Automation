@@ -1,27 +1,23 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
-public abstract class DriverManager
+public class DriverManager
 {
+    static WebDriver driver;
 
-    protected WebDriver driver;
-
-    protected abstract void createWebDriver();
-
-    public void quitWebDriver()
+    public static void CreateSafariDriver()
     {
-        if (null != driver)
-        {
-            driver.quit();
-            driver = null;
-        }
+        driver = new SafariDriver();
     }
 
-    public WebDriver getWebDriver()
+    public static void GoToHomePage()
     {
-        if (null == driver)
-        {
-            createWebDriver();
-        }
-        return driver;
+        driver.get("http://www.paradigmpd.com");
+        driver.manage().window().maximize();
+    }
+
+    public void QuitSafariDriver()
+    {
+        driver.quit();
     }
 }
