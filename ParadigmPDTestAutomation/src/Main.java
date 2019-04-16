@@ -16,8 +16,6 @@ public class Main
     {
         System.out.println("Test scripts are now running...");
         HomePage.ClickICFLink();
-
-
         DriverManager.QuitSafariDriver();
     }
 }
