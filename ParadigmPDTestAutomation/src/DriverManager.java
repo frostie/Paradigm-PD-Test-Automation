@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -16,7 +17,7 @@ public class DriverManager
         driver.manage().window().maximize();
     }
 
-    public void QuitSafariDriver()
+    public static void QuitSafariDriver()
     {
         driver.quit();
     }
